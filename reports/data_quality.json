@@ -1,0 +1,21 @@
+{
+  "raw_rows": 122400,
+  "duplicates_removed": 2400,
+  "clean_rows": 120000,
+  "missing_after_dedup": {
+    "video_id": 0,
+    "date": 0,
+    "views": 0,
+    "likes": 6000,
+    "comments": 6000,
+    "watch_time_minutes": 6000,
+    "video_length_minutes": 0,
+    "subscribers": 0,
+    "category": 0,
+    "device": 0,
+    "country": 0,
+    "ad_revenue_usd": 0
+  },
+  "unique_video_ids": 5000,
+  "repeated_video_date_rows": 3849
+}

@@ -1,0 +1,5 @@
+# Preserve tested files byte-for-byte, including dataset and model hashes.
+* -text
+*.pdf binary
+*.png binary
+*.joblib binary

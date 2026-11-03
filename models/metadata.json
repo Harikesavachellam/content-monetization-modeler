@@ -1,0 +1,87 @@
+{
+  "ranges": {
+    "views": [
+      9521.0,
+      10468.0
+    ],
+    "likes": [
+      195.0,
+      2051.0
+    ],
+    "comments": [
+      48.0,
+      515.0
+    ],
+    "watch_time_minutes": [
+      14659.11,
+      61557.67
+    ],
+    "video_length_minutes": [
+      2.01,
+      29.99
+    ],
+    "subscribers": [
+      1005.0,
+      999997.0
+    ]
+  },
+  "defaults": {
+    "views": 10000.0,
+    "likes": 1101.0,
+    "comments": 274.0,
+    "watch_time_minutes": 37505.327516668985,
+    "video_length_minutes": 16.002545794614388,
+    "subscribers": 504520.0
+  },
+  "categories": {
+    "category": [
+      "Education",
+      "Entertainment",
+      "Gaming",
+      "Lifestyle",
+      "Music",
+      "Tech"
+    ],
+    "device": [
+      "Desktop",
+      "Mobile",
+      "TV",
+      "Tablet"
+    ],
+    "country": [
+      "AU",
+      "CA",
+      "DE",
+      "IN",
+      "UK",
+      "US"
+    ]
+  },
+  "model": "Linear Regression",
+  "seed": 42,
+  "split": {
+    "train": {
+      "rows": 72176,
+      "video_ids": 3000
+    },
+    "validation": {
+      "rows": 23967,
+      "video_ids": 1000
+    },
+    "test": {
+      "rows": 23857,
+      "video_ids": 1000
+    }
+  },
+  "model_sha256": "4a51fe4933350483602ac1874f206b148c1cef89075d733d054a5cf688acf468",
+  "data_sha256": "3b5f7e71a7dee392484e21536b9c3e90201ed4bf158f52369194bd080487ca6b",
+  "python_version": "3.12.14",
+  "versions": {
+    "scikit-learn": "1.7.2",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "joblib": "1.5.2"
+  },
+  "selection_rule": "Lowest validation RMSE; simpler model within $0.05",
+  "fitted_on": "Training and validation IDs; test IDs excluded"
+}
